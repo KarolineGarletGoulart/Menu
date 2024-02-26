@@ -1,20 +1,31 @@
 :root{
     --cor_seila: pink;
-    --cor_naoseikk: blue;
+    --cor_naoseikk: white;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor_seila);
 }
-h1{
-    color: var(--cor_naoseikk)
+main {
+    border: solid black 2px;
+    padding-left: 737px;
 }
-.principal{
+.main{
     border: solid white 2px;
     text-align: center;
-    height: 600;
-    width: 500px;
-    border-radius: 10%;
+    height: 500px;
+    width: 400px;
+    border-radius: 20%;
+    background-color: white;
+    padding: 10px;
+
+}
+h1{
+    color: var(--cor_naoseikk);
+    text-align: center;
 }
 button{
     text-align: center;
 }
+
+    
